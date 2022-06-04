@@ -5,7 +5,7 @@ FROM openjdk:8-jdk-alpine
 #FROM adoptopenjdk/openjdk11:alpine-jre
 
 # Refer to Maven build -> finalName
-ARG JAR_FILE=target/spring-boot-web.jar
+ARG JAR_FILE=target/spring-boot-hello-1.0.jar
  
 COPY ${JAR_FILE} ./app.jar
 
